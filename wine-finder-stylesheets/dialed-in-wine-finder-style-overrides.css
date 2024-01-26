@@ -173,7 +173,7 @@ span.privacy {
     color: var(--accent-color);
 }
 .text-muted {
-    color: var(--accent-color);
+    color: var(--main-color);
 }
 .swal-button {
 	background-color: var(--main-color);
@@ -204,6 +204,7 @@ span.finder_miles {
     border-color: var(--main-color);
     padding: .625rem 1rem;
 }
+.panel-footer > a { color: var(--main-color); }
 a:hover {
 	background-color: var(--accent-color);
 }
