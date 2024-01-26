@@ -91,10 +91,10 @@ a {
 	margin: auto;
 	text-align: left;
 }
-.form-control {
-	/*height: 3rem; !important
-	font-size: 1rem; !important */
-}
+/*.form-control {
+	height: 3rem; !important
+	font-size: 1rem; !important
+}*/
 .panel .panel-primary .finder_row .finder_location {
 	text-align: left;
 }
@@ -200,7 +200,7 @@ span.finder_miles {
 	font-size: .875rem;
 }
 .panel-footer {
-    background-color: var(--dark-color);
+    background-color: var(--background);
     border-color: var(--main-color);
     padding: .625rem 1rem;
 }
