@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+	--background: transparent;
+	--text-color: #ffffff;
+	--hover-color: #000000;
+    --disabled: #ceadad;
+    --link-color: var(--main-color);
+    --background-hover: #ffc845;
+    --main-color: #0e7687;
+	--fonts: 'Josefinsans variablefont wght', Arial, sans-serif;
+}
+
+#finder_body {
+    font-family: var(--fonts);
+	font-size: 16px;
+	width: 100%;
+	color: var(--text-color);
+	background-color: var(--background);
+}
+
+.container-fluid {
+	font-size: 16px;
+}
+
+#tab-form {
+    width: 100%;
+	font-size: 16px;
+}
+
+.btn-primary {
+	background-color: var(--main-color);
+}
+
+.btn-primary:hover {
+	color: var(--hover-color);
+	background-color: var(--background-hover);
+}
+
+.btn-primary[disabled]:hover {
+	background-color: var(--disabled);
+}
+
+.btn:hover {
+	color: var(--hover-color);
+	background-color: var(--background-hover); 
+}
+
+.button:hover {
+	color: var(--hover-color);
+	background-color: var(--background-hover); 
+}
+
+.panel > a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.nav-tabs>li>a {
+	color: var(--text-color);
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:hover {
+	border: none;
+    box-shadow: inset 0 -2px 0 var(--hover-color);
+    color: var(--hover-color);
+    background-color: var(--background-hover);
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:hover {
+    border: none;
+    box-shadow: inset 0 -2px 0 var(--hover-color);
+    color: var(--hover-color);
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+    border: none;
+    box-shadow: inset 0 -2px 0 var(--hover-color);
+    color: var(--hover-color);
+    background-color: var(--background);
+}
+
+.nav-tabs > li.active > a {
+    font-weight: bold;
+	color: var(--text-color);
+	background-color: var(--main-color);
+}
+
+.nav-tabs > li.active > a:hover {
+	background-color: var(--background-hover);
+	color: var(--hover-color);
+}
+
+.panel {
+	display:block;
+	margin: auto;
+	text-align: left;
+	background-color: var(--background);
+	box-shadow: none;
+}
+.tab-pane {
+	display:block;
+	margin: auto;
+	text-align: left;
+}
+
+.form-control {
+	height: 48px !important;
+	font-size: 16px !important;
+}
+
+.panel .panel-primary .finder_row .finder_location {
+	text-align: left;
+}
+
+.panel-primary {
+	border-color: var(--background);
+}
+
+.panel-footer {
+	font-size: 12px !important;
+}
+
+.form-horizontal .control-label {
+	padding-top: 8px;
+}
+
+.panel-default { border-color: var(--background) ;}
+
+.panel-primary .panel-heading {
+    color: var(--text-color);
+    /*background-color: #2196f3;*/
+    /*border-color: #2196F4;*/
+	background-color: var(--background);
+	border-color: var(--background);
+}
+	
+.nav>li.disabled>a {
+    color: var(--disabled);
+}
+
+/* FINDER TAB STYLES */
+.finder_location .panel-title {
+    font-family: var(--fonts);
+    font-weight: 600;
+}
+
+.finder_phone {
+    font-weight: 500;
+}
+
+.finder_phone {
+    font-size: 1rem;
+}
+
+.panel-heading .finder_phone a:hover {
+    background-color: var(--background-hover);
+    color: var(--hover-color);
+}
+
+.label-default {
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
+
+.panel-heading .label-default {
+    background-color: var(--hover-color);
+    color: var(--background-hover);
+}
+
+a.finder_address {
+    color: var(--text-color);
+	font-weight: 400;
+}
+
+a.finder_address:hover {
+    background-color: var(--background-hover);
+    color: var(--hover-color);
+}
+/* START ADA ACCESSIBLE CONTRAST FIXES */
+.btn-primary {
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.panel > a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+span.privacy {
+    color: var(--text-color);
+}
+.text-muted {
+    color: var(--disabled);
+}
+.swal-button {
+	background-color: var(--main-color);
+}
+.swal-button:not([disabled]):hover {
+	color: var(--hover-color);
+	background-color:var(--background-hover);
+}
+.swal-button:active {
+	background-color: var(--main-color);
+}
+.alert-warning {
+	background-color:#420C14;
+}
+small, .small  {
+	font-size:16px;
+}
+span.finder_brand_list {
+	font-size:14px;
+}
+span.finder_miles {
+	font-size:14px;
+}
+.panel-footer {
+	background-color: var(--background);
+}
+.panel > a:hover {
+	color: var(--hover-color);
+	background-color: var(--background-hover);
+}

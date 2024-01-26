@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+finder_body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	width: 100%;
+}
+
+.container-fluid {
+	font-size: 16px;
+}
+
+#tab-form {
+    width: 100%;
+	font-size: 16px;
+}
+
+.btn-primary {
+	background-color: #767676;
+}
+
+.btn-primary: hover {
+	background-color: #6d6d6d;
+}
+
+.btn:hover {
+  background-color: #6d6d6d; 
+}
+
+.button:hover {
+  background-color: #6d6d6d; 
+}
+
+a {
+    color: #767676;
+    text-decoration: none;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:hover {
+	border: none;
+    box-shadow: inset 0 -2px 0 #6d6d6d;
+    color: #6d6d6d;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:hover {
+    border: none;
+    box-shadow: inset 0 -2px 0 #6d6d6d;
+    color: #6d6d6d;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+    border: none;
+    box-shadow: inset 0 -2px 0 #6d6d6d;
+    color: #6d6d6d;
+}
+
+.nav-tabs > li.active > a {
+    font-weight: bold;
+}
+
+.panel {
+	display:block;
+	margin: auto;
+	text-align: left;
+}
+.tab-pane {
+	display:block;
+	margin: auto;
+	text-align: left;
+}
+
+.form-control {
+	height: 48px; !important
+	font-size: 16px; !important
+}
+
+.panel panel-primary finder_row finder_location {
+	text-align: left;
+}
+
+.panel-footer {
+	font-size: 12px; !important
+}
+
+.form-horizontal .control-label {
+	padding-top: 8px;
+}
+
+.panel-primary .panel-heading {
+    color: #ffffff;
+    /*background-color: #2196f3;*/
+    /*border-color: #2196F4;*/
+	background-color: #6d6d6d;
+	border-color: #6d6d6d;
+}
+	
+.nav>li.disabled>a {
+    color: #666666;
+}
+/* START ADA ACCESSIBLE CONTRAST FIXES */
+.btn-primary {
+    color: #ffffff;
+    background-color: #7C1C37;
+    border-color: #420C14;
+}
+a {
+    color: #420C14;
+    text-decoration: none;
+}
+span.privacy {
+    color:#420C14;
+}
+.text-muted {
+    color: #666666;
+}
+.swal-button {
+	background-color:#420C14;
+}
+.swal-button:not([disabled]):hover {
+	background-color:#666666;
+}
+.swal-button:active {
+	background-color:#7C1C37;
+}
+.alert-warning {
+	background-color:#420C14;
+}
+small, .small,  {
+	font-size:16px;
+}
+span.finder_brand_list {
+	font-size:14px;
+}
+span.finder_miles {
+	font-size:14px;
+}
+.panel-footer {
+	font-size:14px;
+}
+a:hover [
+	background-color:#333333;
+]
