@@ -206,5 +206,6 @@ span.finder_miles {
 }
 .panel-footer > a { color: var(--main-color); }
 a:hover {
+    color: var(--dark-color);
 	background-color: var(--accent-color);
 }
