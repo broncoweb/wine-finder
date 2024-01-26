@@ -173,7 +173,7 @@ span.privacy {
     color: var(--accent-color);
 }
 .text-muted {
-    color: #f3f3f3;
+    color: var(--accent-color);
 }
 .swal-button {
 	background-color: var(--main-color);
