@@ -81,7 +81,7 @@ a {
 	font-size: 1rem; 
 }
 
-.panel panel-primary finder_row finder_location {
+.panel .panel-primary .finder_row .finder_location {
 	text-align: left;
 }
 
@@ -92,9 +92,9 @@ a {
 .form-horizontal .control-label {
 	padding-top: .5rem;
 }
-
+.panel-primary { border-color:var(--main-color);}
 .panel-primary .panel-heading {
-    color: var(--text-on-light);
+    color: var(--text-on-dark);
     /*background-color: #2196f3;*/
     /*border-color: #2196F4;*/
 	background-color: var(--main-color);
