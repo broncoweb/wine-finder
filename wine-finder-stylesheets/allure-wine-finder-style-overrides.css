@@ -77,8 +77,8 @@ a {
 }
 
 .form-control {
-	height: 3rem !important; 
-	font-size: 1rem !important; 
+	height: 3rem; 
+	font-size: 1rem; 
 }
 
 .panel panel-primary finder_row finder_location {
