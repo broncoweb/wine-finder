@@ -20,7 +20,7 @@ finder_body {
 	background-color: #767676;
 }
 
-.btn-primary: hover {
+.btn-primary:hover {
 	background-color: #6d6d6d;
 }
 
@@ -72,8 +72,8 @@ a {
 }
 
 .form-control {
-	height: 48px; !important
-	font-size: 16px; !important
+	height: 48px !important; 
+	font-size: 16px !important; 
 }
 
 .panel panel-primary finder_row finder_location {
@@ -81,7 +81,7 @@ a {
 }
 
 .panel-footer {
-	font-size: 12px; !important
+	font-size: 12px !important; 
 }
 
 .form-horizontal .control-label {
@@ -127,7 +127,7 @@ span.privacy {
 .alert-warning {
 	background-color:#420C14;
 }
-small, .small,  {
+small, .small  {
 	font-size:16px;
 }
 span.finder_brand_list {
@@ -139,6 +139,6 @@ span.finder_miles {
 .panel-footer {
 	font-size:14px;
 }
-a:hover [
+a:hover {
 	background-color:#333333;
-]
+}
