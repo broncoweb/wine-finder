@@ -77,7 +77,7 @@ a {
 }
 
 .form-control {
-	height: 3rem; 
+	height: auto; 
 	font-size: 1rem; 
 }
 
